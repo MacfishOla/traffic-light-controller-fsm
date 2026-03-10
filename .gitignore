@@ -1,0 +1,10 @@
+/build/
+.pio/
+.vscode/settings.json
+*.o
+*.elf
+*.bin
+*.hex
+*.log
+.DS_Store
+Thumbs.db
