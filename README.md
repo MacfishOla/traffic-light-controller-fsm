@@ -22,7 +22,7 @@ This project is part of a structured embedded systems learning roadmap covering 
 
 ## System Architecture
 
-![Block Diagram](docs/images/block_diagram.png)
+![Block Diagram](docs/images/traffic_light_fsm.png)
 
 ---
 
@@ -63,3 +63,26 @@ Future improvements include:
 ---
 
 ## Repository Structure
+
+- docs/ → project documentation
+- firmware/ → source code
+- hardware/ → schematic and PCB
+- simulation/ → simulation files
+- project_management/ → roadmap and logs
+
+---
+
+## Learning Objectives
+
+- Embedded system architecture
+- Finite State Machine design
+- Non-blocking timing
+- Hardware interfacing
+- PCB design workflow
+- Version control with Git
+
+---
+
+## Author
+
+MacFish Ola

@@ -24,3 +24,22 @@ The system is composed of the following subsystems:
 2. Firmware implements a Finite State Machine (FSM).
 3. Each state represents a traffic condition.
 4. A timer controls transitions between states.
+
+## Pin Mapping
+
+| Signal | Arduino Pin |
+|-------|-------------|
+| NS_RED | D2 |
+| NS_YELLOW | D3 |
+| NS_GREEN | D4 |
+| EW_RED | D5 |
+| EW_YELLOW | D6 |
+| EW_GREEN | D7 |
+
+## LED Wiring
+
+Each LED is connected in series with a 220Ω resistor.
+
+Connection format:
+Arduino pin -> resistor -> LED anode
+LED cathode -> GND

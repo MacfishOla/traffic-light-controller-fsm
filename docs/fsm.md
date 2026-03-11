@@ -1,5 +1,5 @@
 # Finite State Machine Definition
-
+### Diagram ![Block Diagram](fsm_state_diagram.png)
 ## States
 
 1. NS_GREEN
@@ -29,11 +29,11 @@ East-West traffic prepares to stop.
 ### ALL_RED_2
 Safety buffer before returning to NS_GREEN.
 
-## State Transitions
+## State Transitions Rules
 
-NS_GREEN → NS_YELLOW  
-NS_YELLOW → ALL_RED_1  
-ALL_RED_1 → EW_GREEN  
-EW_GREEN → EW_YELLOW  
-EW_YELLOW → ALL_RED_2  
-ALL_RED_2 → NS_GREEN
+- NS_GREEN -> NS_YELLOW after 5 seconds
+- NS_YELLOW -> ALL_RED_1 after 2 seconds
+- ALL_RED_1 -> EW_GREEN after 1 second
+- EW_GREEN -> EW_YELLOW after 5 seconds
+- EW_YELLOW -> ALL_RED_2 after 2 seconds
+- ALL_RED_2 -> NS_GREEN after 1 second
